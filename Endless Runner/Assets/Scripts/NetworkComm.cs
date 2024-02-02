@@ -1,5 +1,6 @@
 using System; using System.Net; using System.Net.Sockets; using System.Text;
 using System.Collections; using System.Collections.Generic; using UnityEngine;
+
 namespace NetworkAPI {
     public class NetworkComm {
         public delegate void MsgHandler(string message);
