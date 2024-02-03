@@ -31,7 +31,7 @@ namespace NetworkAPI {
                 while (true) {
                     mcastSocket.ReceiveFrom(bytes, ref remoteEP);
                     String message = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
-                    Debug.Log(message);
+                    // Debug.Log(message);
                     MsgReceived(message);                   
                 }
                 mcastSocket.Close();
