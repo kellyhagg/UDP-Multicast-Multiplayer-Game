@@ -1,2 +1,2 @@
-# comp4945-AssignmentII
+# UDP Multicast Multiplayer Game
 Unity game
